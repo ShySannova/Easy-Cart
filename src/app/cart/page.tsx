@@ -18,8 +18,8 @@ const Cart = (props: Props) => {
                     <>
                         <div>
                             <h2>
-                                "Oh no! 🛒💔 Your cart feels a bit too light.
-                                It's craving for fashionable additions! Embark
+                            &quot;Oh no! 🛒💔 Your cart feels a bit too light.
+                                It&apos;s craving for fashionable additions! Embark
                                 on a shopping spree and fill it with trendy
                                 outfits that will make heads turn! 💃✨
                             </h2>
@@ -36,7 +36,6 @@ const Cart = (props: Props) => {
                                     style={{ objectFit: "contain" }}
                                 />
                             </div>
-                            <img src="" alt="" />
                             <button
                                 onClick={() => {
                                     // Redirect to the products page when the "Add Products" button is clicked

@@ -21,7 +21,7 @@ const ProductDetails = ({ params }: any) => {
         fetch(`https://fakestoreapi.com/products/${params.slug[1]}`)
             .then((res) => res.json())
             .then((json) => setProduct(json));
-    }, []);
+    }, [params.slug]);
 
     // State to hold the product data
     const [product, setProduct] = useState<Product | null>(null);

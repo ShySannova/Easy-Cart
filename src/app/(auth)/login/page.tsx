@@ -31,7 +31,7 @@ const Login = (props: Props) => {
                     </button>
                     <button className="rgba hover:bg-gray-600 text-white p-2">Login As guest</button>
                     <p>
-                        Don't have an account?&nbsp;
+                        Don&apos;t have an account?&nbsp;
                         <Link className="text-blue-500 hover:underline" href={"/register"}>
                             SignUp here
                         </Link>
